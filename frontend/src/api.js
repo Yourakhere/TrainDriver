@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://train-driver-backend.vercel.app/api";
 
 export const API = {
   get: async (url, config) => {
@@ -34,3 +34,4 @@ export const API = {
     });
   }
 };
+
